@@ -11,7 +11,7 @@ class CustomUser(AbstractUser):
     user_type=models.CharField(default=1,choices=user_type_data,max_length=10)
     refferal_code = models.CharField(max_length= 200, null = True)
     reffered_user = models.CharField(max_length= 200, null = True)
- 
+    username = models.
 
 
 class AdminMD(models.Model):
